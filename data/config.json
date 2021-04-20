@@ -1,0 +1,119 @@
+{
+    "spaceMaxSize": 10000,
+    "worldCenter": {
+        "y": 0,
+        "z": -9000,
+        "x": -9000
+    },
+    "offsets": {
+        "planet": 131072,
+        "moon": 16384
+    },
+    "system": [
+        {
+            "name": "GasGiant",
+            "type": "planet",
+            "radius": 500,
+            "color": "#aaddff",
+            "position": {
+                "x": "-9000000",
+                "y": "0",
+                "z": "-9000000"
+            },
+            "satellites": [
+                {
+                    "name": "Terra",
+                    "type": "planet",
+                    "radius": 60,
+                    "color": "#2050b0",
+                    "position": {
+                        "x": "-9131072",
+                        "y": "-1131072",
+                        "z": "-131072"
+                    },
+                    "satellites": [
+                        {
+                            "name": "Luna",
+                            "type": "moon",
+                            "radius": 9.5,
+                            "color": "#808080",
+                            "position": {
+                                "x": "-9000000",
+                                "y": "-880000",
+                                "z": "-130000"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Mars",
+                    "type": "planet",
+                    "radius": 60,
+                    "color": "#b07020",
+                    "position": {
+                        "x": "7900000",
+                        "y": "1000000",
+                        "z": "-3700000"
+                    },
+                    "satellites": [
+                        {
+                            "name": "Europa",
+                            "type": "moon",
+                            "radius": 9.5,
+                            "color": "#99aaff",
+                            "position": {
+                                "x": "7900000",
+                                "y": "1000000",
+                                "z": "-3800000"
+                            }
+                        },
+                        {
+                            "name": "Titan",
+                            "type": "moon",
+                            "radius": 9.5,
+                            "color": "#ffbb33",
+                            "position": {
+                                "x": "8100000",
+                                "y": "1100000",
+                                "z": "-3300000"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Alien",
+                    "type": "planet",
+                    "radius": 60,
+                    "color": "#308020",
+                    "position": {
+                        "x": "0",
+                        "y": "0",
+                        "z": "7600000"
+                    }
+                },
+                {
+                    "name": "Triton",
+                    "type": "planet",
+                    "radius": 30,
+                    "color": "#ddddff",
+                    "position": {
+                        "x": "-350000",
+                        "y": "-2500000",
+                        "z": "300000"
+                    }
+                },
+                {
+                    "name": "Pertam",
+                    "type": "planet",
+                    "radius": 40,
+                    "color": "#b07020",
+                    "position": {
+                        "x": "-4000000",
+                        "y": "2065000",
+                        "z": "-800000"
+                    }
+                }
+            ]
+        }
+    ]
+}
